@@ -1,5 +1,5 @@
 compile:
-	g++ -o main src/main.cpp -L/usr/X11/lib -lX11
+	g++ -o main src/main.cpp
 	mv main bin
 	./bin/main
 clean:
